@@ -1,3 +1,25 @@
 <resources>
-    <string name="app_name">Web view</string>
+    <string name="app_name">News 360</string>
+    <string name="uttarakhand">उत्तराखण्ड </string>
+    <string name="almora">अल्मोड़ा</string>
+    <string name="bageshwar">बागेश्वर</string>
+    <string name="chamoli">चमोली</string>
+    <string name="champawat">चम्पावत</string>
+    <string name="dehradun">देहरादून</string>
+    <string name="haridwar">हरिद्वार</string>
+    <string name="nainital">नैनीताल</string>
+    <string name="paurigarhwal">पौड़ी</string>
+    <string name="pithoragarh">पिथौरागढ़</string>
+    <string name="rudraprayag">रुद्रप्रयाग</string>
+    <string name="tehrigarhwal">टिहरी</string>
+    <string name="udhamsinghnagar">उधमसिंह नगर</string>
+    <string name="uttarkash"> उत्तरकाशी</string>
+    <string name="india"> भारत</string>
+    <string name="share">शेयर</string>
+
+
+
+
+
+
 </resources>
