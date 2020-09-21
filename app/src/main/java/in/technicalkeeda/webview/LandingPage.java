@@ -1,6 +1,5 @@
 package in.technicalkeeda.webview;
 
-import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -22,9 +21,9 @@ public class LandingPage extends AppCompatActivity {
 
 
 
-        final int logos[] = {R.drawable.uttarakhand72,R.drawable.ic_launcher,R.drawable.ic_launcher,R.drawable.ic_launcher
-                ,R.drawable.ic_launcher,R.drawable.ic_launcher,R.drawable.ic_launcher,R.drawable.ic_launcher
-                ,R.drawable.ic_launcher,R.drawable.ic_launcher,R.drawable.ic_launcher,R.drawable.ic_launcher,R.drawable.ic_launcher,R.drawable.ic_launcher,R.drawable.ic_launcher,R.drawable.ic_share};
+        final int logos[] = {R.drawable.uttarakhand72,R.drawable.almoraimage,R.drawable.almoraimage,R.drawable.almoraimage
+                ,R.drawable.almoraimage,R.drawable.almoraimage,R.drawable.almoraimage,R.drawable.almoraimage
+                ,R.drawable.almoraimage,R.drawable.almoraimage,R.drawable.almoraimage,R.drawable.almoraimage,R.drawable.almoraimage,R.drawable.almoraimage,R.drawable.almoraimage,R.drawable.ic_share};
         Resources res = getResources();
        // String[] myStrings = res.getStringArray(R.array.birthdaywishes);
         simpleGrid = (GridView) findViewById(R.id.simpleGridView); // init GridView
