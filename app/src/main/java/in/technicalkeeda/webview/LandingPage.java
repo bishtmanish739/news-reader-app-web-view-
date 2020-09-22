@@ -21,9 +21,9 @@ public class LandingPage extends AppCompatActivity {
 
 
 
-        final int logos[] = {R.drawable.uttarakhand72,R.drawable.almoraimage,R.drawable.bageshwar,R.drawable.chamoli
+        final int logos[] = {R.drawable.pitho,R.drawable.almoraimage,R.drawable.bageshwar,R.drawable.chamoli
                 ,R.drawable.champawat,R.drawable.dun,R.drawable.haridwar,R.drawable.nainital
-                ,R.drawable.pauri,R.drawable.pitho,R.drawable.almoraimage,R.drawable.almoraimage,R.drawable.almoraimage,R.drawable.almoraimage,R.drawable.almoraimage,R.drawable.ic_share};
+                ,R.drawable.pauri,R.drawable.pitho,R.drawable.rudra,R.drawable.tehri,R.drawable.uds,R.drawable.uks,R.drawable.almoraimage,R.drawable.ic_share};
         Resources res = getResources();
        // String[] myStrings = res.getStringArray(R.array.birthdaywishes);
         simpleGrid = (GridView) findViewById(R.id.simpleGridView); // init GridView
