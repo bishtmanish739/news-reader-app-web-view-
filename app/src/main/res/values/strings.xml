@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Uttarakhand News 360</string>
+    <string name="app_name">Uttarakhand 360 News </string>
     <string name="uttarakhand">उत्तराखण्ड </string>
     <string name="almora">अल्मोड़ा</string>
     <string name="bageshwar">बागेश्वर</string>
@@ -18,7 +18,7 @@
     <string name="share">शेयर</string>
 
 
-    <string name="interstacialadid">उधमसिंह नगर</string>
+    <string name="interstacialadid">ca-app-pub-3624608645361712/4537380388</string>
 
 
 </resources>

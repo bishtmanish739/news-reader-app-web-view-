@@ -1,4 +1,4 @@
-package in.technicalkeeda.webview;
+package in.technicalkeeda.uttarakhand360news;
 
 import org.junit.Test;
 

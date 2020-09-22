@@ -1,4 +1,4 @@
-package in.technicalkeeda.webview;
+package in.technicalkeeda.uttarakhand360news;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,13 +8,37 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
+import com.google.android.gms.ads.RequestConfiguration;
+import com.google.android.gms.ads.initialization.InitializationStatus;
+import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
+
+import java.util.Arrays;
+import java.util.List;
+
 public class MainActivity extends AppCompatActivity {
     WebView webView;
+    private AdView mAdView1;
+    List<String> testDeviceIds = Arrays.asList("8AF74256D8D5C1E9EF7F4C87D703027E");
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        mAdView1 = findViewById(R.id.adView1);
+        MobileAds.initialize(this, new OnInitializationCompleteListener() {
+            @Override
+            public void onInitializationComplete(InitializationStatus initializationStatus) {
+            }
+        });
+        RequestConfiguration configuration =
+                new RequestConfiguration.Builder().setTestDeviceIds(testDeviceIds).build();
+
+        mAdView1 = findViewById(R.id.adView1);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView1.loadAd(adRequest);
 
         webView=findViewById(R.id.webview);
         webView.setWebViewClient(new WebViewClient());

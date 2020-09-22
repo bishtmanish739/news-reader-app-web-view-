@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffffff"
+    android:background="@color/colorPrimaryDark"
     tools:context=".splashScreen"
     android:orientation="vertical">
     <LinearLayout
@@ -21,9 +21,12 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="News 360"
-            android:textStyle="bold|italic"
+            android:text="उत्तराखंड समाचार"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
             android:textSize="20sp"/>
+
+
 
     </LinearLayout>
 
