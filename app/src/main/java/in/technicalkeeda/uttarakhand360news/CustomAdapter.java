@@ -105,6 +105,11 @@ public class CustomAdapter extends BaseAdapter {
         }
         if(i==15){
             TextView title = (TextView) view.findViewById(R.id.DistricTitle);
+            title.setText(R.string.jobopening);
+            // set logo images
+        }
+        if(i==16){
+            TextView title = (TextView) view.findViewById(R.id.DistricTitle);
             title.setText(R.string.share);
             // set logo images
         }

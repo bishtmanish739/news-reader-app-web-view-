@@ -27,7 +27,7 @@ public class LandingPage extends AppCompatActivity {
     private InterstitialAd mInterstitialAd;
     final int logos[] = {R.drawable.pitho,R.drawable.almoraimage,R.drawable.bageshwar,R.drawable.chamoli
             ,R.drawable.champawat,R.drawable.dun,R.drawable.haridwar,R.drawable.nainital
-            ,R.drawable.pauri,R.drawable.pitho,R.drawable.rudra,R.drawable.tehri,R.drawable.uds,R.drawable.uks,R.drawable.almoraimage,R.drawable.ic_share};
+            ,R.drawable.pauri,R.drawable.pitho,R.drawable.rudra,R.drawable.tehri,R.drawable.uds,R.drawable.uks,R.drawable.almoraimage,R.drawable.job,R.drawable.ic_share};
 
 
     private AdView mAdView;
@@ -67,7 +67,7 @@ public class LandingPage extends AppCompatActivity {
                     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                         // set an Intent to Another Activity
 
-                        if(position!=15) {
+                        if(position!=16) {
                             Intent intent = new Intent(LandingPage.this, MainActivity.class);
 
                             intent.putExtra("image", logos[position]); // put image data in Intent
@@ -104,7 +104,7 @@ public class LandingPage extends AppCompatActivity {
 
                 }
                 else {
-                    if(position!=15) {
+                    if(position!=16) {
                         Intent intent = new Intent(LandingPage.this, MainActivity.class);
 
                         intent.putExtra("image", logos[position]); // put image data in Intent

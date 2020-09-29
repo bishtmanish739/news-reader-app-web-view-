@@ -21,6 +21,7 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity {
     WebView webView;
     private AdView mAdView1;
+    private  AdView mAdView2;
     List<String> testDeviceIds = Arrays.asList("8AF74256D8D5C1E9EF7F4C87D703027E");
 
     @Override
@@ -37,8 +38,10 @@ public class MainActivity extends AppCompatActivity {
                 new RequestConfiguration.Builder().setTestDeviceIds(testDeviceIds).build();
 
         mAdView1 = findViewById(R.id.adView1);
+        mAdView2=findViewById(R.id.adView2);
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView1.loadAd(adRequest);
+        mAdView2.loadAd(adRequest);
 
         webView=findViewById(R.id.webview);
         webView.setWebViewClient(new WebViewClient());
@@ -142,6 +145,13 @@ public class MainActivity extends AppCompatActivity {
         if(i==14){
             //india
             webView.loadUrl("https://news.google.com/topstories?hl=hi&gl=IN&ceid=IN%3Ahi");
+            WebSettings webSettings=webView.getSettings();
+            webSettings.setJavaScriptEnabled(true);
+
+        }
+        if(i==15){
+            //job
+            webView.loadUrl("https://news.google.com/search?q=%E0%A4%A8%E0%A5%8C%E0%A4%95%E0%A4%B0%E0%A4%BF%E0%A4%AF%E0%A4%BE%E0%A4%82&hl=hi&gl=IN&ceid=IN%3Ahi");
             WebSettings webSettings=webView.getSettings();
             webSettings.setJavaScriptEnabled(true);
 
